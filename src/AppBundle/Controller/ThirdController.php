@@ -79,6 +79,14 @@ class ThirdController extends Controller
     /*
      * H
      */
+    
+    /**
+    * @Route("/chlopibaba.html", name="chlopibaba")
+    */
+    public function ChlopibabaAction()
+    {
+        return $this->render('default/chlopibaba.html.twig');
+    } 
 
     /*
      * I
