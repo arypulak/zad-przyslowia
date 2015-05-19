@@ -75,6 +75,14 @@ class ThirdController extends Controller
     /*
      * G
      */
+    
+    /**
+    * @Route("/nogi.html", name="nogi")
+    */
+    public function NogiAction()
+    {
+        return $this->render('default/nogi.html.twig');
+    }
 
     /*
      * H
